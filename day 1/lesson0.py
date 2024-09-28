@@ -13,7 +13,7 @@ forward(200)
 left(90)
 
 forward(200)
-fillcolor()
+
 
 
 left(90)
@@ -25,7 +25,7 @@ right(90)
 forward(60)
 right(90)
 forward(120)
-end_fill()
+
 
 penup()
 goto(200, 200)
