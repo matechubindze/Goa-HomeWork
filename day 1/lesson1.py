@@ -19,7 +19,7 @@ is_ugly = False
 isUgly = False # ჯავასკრიპტული camelcase
 
 
-print(name + " " + surname)
+print(name + " " + surname )
 
 #სტრინგი არის ბრჭყალებში მოქეცეული სიმბოლოები
 # print(name + age)
@@ -31,3 +31,5 @@ print(type(height))
 print(type(know_programming))
 
 print(name + " " + str(age))
+
+print (name + " " + surname + " " + str(age) + " " + str(height))
