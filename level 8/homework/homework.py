@@ -7,14 +7,15 @@ surname = input("Enter your surname here: ")
 print(type(name))
 print(type(surname))
 
-num1 = 10
+     
+num1 = 10  
 num2 = 12
 num3 = 45
 num4 = 67
 num5 = 77
-
 print(num1 + num3)
 print(num4 * num5)
 print(num2 ** num1)
 print(num5 % num4)
 print(num3 / num4)
+print(num5 - num3)
