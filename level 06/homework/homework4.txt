@@ -1,0 +1,2 @@
+case sensitive programming languages-ruby,XML,Java
+case insensitive-pascal,SQL,Cobol,BASIC
