@@ -1,0 +1,11 @@
+#
+print(12 and 23 > 263 or 11)
+print(12 or 13 < 44 )
+print(55 and 44 == 334)
+print(33 and 33 == 23 or 66)
+print(23 or 33 + 23 and 44)
+print(66 or 98 + 22 and 44)
+print(23 or 44 - 11 and 2)
+print(65 and 55 / 22 and 33)
+print(64 or 44 != 34 or 44)
+print( 33 or 23 > 11)
