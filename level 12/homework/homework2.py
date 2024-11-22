@@ -1,11 +1,40 @@
-#
-print(12 and 23 > 263 or 11)
-print(12 or 13 < 44 )
-print(55 and 44 == 334)
-print(33 and 33 == 23 or 66)
-print(23 or 33 + 23 and 44)
-print(66 or 98 + 22 and 44)
-print(23 or 44 - 11 and 2)
-print(65 and 55 / 22 and 33)
-print(64 or 44 != 34 or 44)
-print( 33 or 23 > 11)
+
+a = 5 > 1 #True
+b = True
+print(a or b)
+
+c = 3 > 2 #True
+d = True
+print(c or d)
+
+e = 23 > 11 #True
+f = True
+print(e or f)
+
+g = 23 > 22 #True
+h = True
+print(g or h)
+
+a = 2 < 3 #True
+b = True
+print(a or b)
+
+c = 23 < 33 #True
+d = True
+print(c or d)
+
+e1 = 11 < 22 #True
+f1 = True
+print(e1 or f1)
+
+g1 = 33 < 44 #True
+h1 = True
+print(g1 or h1)
+
+i = 55 <100 #True
+j = True
+print(i or j)
+
+k = 99 < 100 #True
+l = True
+print(k or l)
