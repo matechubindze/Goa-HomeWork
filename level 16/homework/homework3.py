@@ -1,7 +1,7 @@
 user_number = int(input("Enter Natural Number"))
 factorial, starting_number = 1, 1
 
-while starting_numberc <= user_number:
+while starting_number <= user_number:
     factorial *= starting_number
 
     print("starting_number:", str(starting_number))
