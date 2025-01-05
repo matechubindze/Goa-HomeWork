@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 18px;
+            color: #007BFF;
+            cursor: pointer;
+        }
+        li:hover {
+            text-decoration: underline;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff4a36;
+        }
+        input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Simple Site</h1>
+
+    <h2>Navigation Links</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Facebook Profile</li>
+    </ul>
+
+    <h2>Buttons</h2>
+    <button onclick="alert('Hello! This is a sample alert.')">Show Alert</button>
+    <button onclick="alert('Another alert message!')">Show Another Alert</button>
+
+    <h2>Enter Your Details</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone">
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Swap with Alert</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .photo-container img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onclick="alert('GOA BEST')">
+    <div class="photo-container">
+        <img src="photo1.jpg" alt="Photo 1" onclick="this.src='photo1_new.jpg'">
+        <img src="photo2.jpg" alt="Photo 2" onclick="this.src='photo2_new.jpg'">
+        <img src="photo3.jpg" alt="Photo 3" onclick="this.src='photo3_new.jpg'">
+    </div>
+</body>
+</html>
+

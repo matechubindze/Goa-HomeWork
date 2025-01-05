@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            width: 70%;
+            height: 60%;
+            background: linear-gradient(to right, #002b36, #1b5e20);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .login-section {
+            flex: 1;
+            padding: 30px;
+            background: #08182f;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .login-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .login-section form {
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .login-section label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        .login-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background: #1e2a3a;
+            color: #fff;
+        }
+        
+        .login-section input:focus {
+            outline: none;
+            border-color: #4caf50;
+        }
+        
+        .login-section .login-btn {
+            width: 100%;
+            padding: 10px;
+            background: #4caf50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .login-section .login-btn:hover {
+            background: #45a049;
+        }
+        
+        .login-section .signup {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .login-section .signup a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .welcome-section {
+            flex: 1;
+            background: #1b5e20;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .welcome-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .welcome-section p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div class="login-section">
+            <h2>Login</h2>
+            <form action="Main.html" method="GET">
+                <label for="email">Username</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Gmail" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <p class="signup">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+</body>
+
+</html>

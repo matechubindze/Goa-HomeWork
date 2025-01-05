@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            width: 70%;
+            height: 65%;
+            background: linear-gradient(to right, #002b36, #1b5e20);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .signup-section {
+            flex: 1;
+            padding: 30px;
+            background: #08182f;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .signup-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .signup-section form {
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .signup-section label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        .signup-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background: #1e2a3a;
+            color: #fff;
+        }
+        
+        .signup-section input:focus {
+            outline: none;
+            border-color: #4caf50;
+        }
+        
+        .signup-section .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background: #4caf50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .signup-section .signup-btn:hover {
+            background: #45a049;
+        }
+        
+        .signup-section .login {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .signup-section .login a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .welcome-section {
+            flex: 1;
+            background: #1b5e20;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .welcome-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .welcome-section p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sign Up Section -->
+        <div class="signup-section">
+            <h2>Sign Up</h2>
+            <form action="Meniu.html" method="GET">
+                <label for="email">Gmail</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Gmail" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required>
+
+                <!-- Link that simulates form submission -->
+                <a href="Main.html" class="signup-btn">Sign Up</a>
+            </form>
+            <p class="login">Already have an account? <a href="Login.html">Login</a></p>
+        </div>
+
+        <!-- Welcome Section -->
+        <div class="welcome-section">
+            <h2>WELCOME!</h2>
+            <p>Create an account to join our platform! MangaLoom on top!</p>
+        </div>
+    </div>
+</body>
+
+</html>
