@@ -1,11 +1,144 @@
-<html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>
-        <div style="text-align: center;color: black;background: gold;">
-            <h2><a href="Main.html">Home</a></h2>
-            <h2><a href="Support.html">Support</a></h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car World</title>
+    <style>
+        body {
+           background-color: aquamarine;
+           text-align: center;
+        }
+
+        h1 {   margin: 20px 0;
+            color: #333;
+         
+            
+        }
+
+      
+            
+    
+        
+        .homepage p {
+            font-size: 20px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        .car-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .car {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .facts {
+            list-style: none;
+            padding: 0;
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .facts li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+    </style >
+</head>
+<body>
+    <!-- Homepage -->
+    <div id="home" class="homepage page active">
+        <h1>Welcome to Car World!</h1>
+        <p>Explore some awesome cars and learn a few fun facts!</p>
+        <div class="buttons">
+            <button class="button" onclick="showPage('cars')">View Cars</button>
+            <button class="button" onclick="showPage('facts')">Fun Car Facts</button>
         </div>
-    </body>
+    </div>
+
+    <!-- Cars Page -->
+    <div id="cars" class="page">
+        <h1>Discover Iconic Cars!</h1>
+        <div class="car-list">
+            <div class="car">
+                <img src="Mustang.png" alt="Ford Mustang">
+                <h2>Ford Mustang</h2>
+                <p>A classic American muscle car known for its power and style.</p>
+            </div>
+            <div class="car">
+                <img src="TeslaModelS.png" alt="Tesla Model S">
+                <h2>Tesla Model S</h2>
+                <p>The electric car revolution, blending luxury with sustainability.</p>
+            </div>
+            <div class="car">
+                <img src="Lamborghini.png" alt="Lamborghini Aventador">
+                <h2>Lamborghini Aventador</h2>
+                <p>A supercar masterpiece with a roaring V12 engine.</p>
+            </div>
+        </div>
+        <button class="button" onclick="showPage('home')">Go Back</button>
+    </div>
+
+    <!-- Fun Facts Page -->
+    <div id="facts" class="page">
+        <h1>Did You Know?</h1>
+        <ul class="facts">
+            <li>The first car was invented in 1886 by Karl Benz.</li>
+            <li>Bugatti Veyron boasts a jaw-dropping 1,001 horsepower!</li>
+            <li>The world's fastest car, SSC Tuatara, can reach speeds of over 330 mph.</li>
+            <li>The average car has around 30,000 parts.</li>
+            <li>Some cars, like the Rinspeed sQuba, can actually drive underwater!</li>
+        </ul>
+        <button  onclick="showPage('home')">Go Back</button>
+    </div>
+    
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            // Show the selected page
+            document.getElementById(pageId).classList.add('active');}
+    </script>
+</body>
 </html>
