@@ -2,10 +2,26 @@ p{
     text-decoration: underline;
 }
     
-h1{
+h3{
     text-decoration: overline;
 }
 
 h2{
-    text-decoration: underline;
+    text-decoration: underline overline;
 }
+
+a{
+    text-decoration: underline dashed;
+}
+.warning{
+    text-decoration: wavy;
+}
+
+h1{
+    text-shadow: 15px 10px;
+}
+
+#shadow{
+    text-shadow: 10px 4px red;
+}
+
