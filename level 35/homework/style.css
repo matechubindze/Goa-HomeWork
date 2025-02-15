@@ -2,4 +2,7 @@
     color: red;
     text-decoration: none;
     text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
 }
