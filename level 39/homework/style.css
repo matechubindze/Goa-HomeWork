@@ -1,0 +1,11 @@
+input{
+    border: 2px solid;
+    border-color: darkblue;
+    padding: 3px;
+    background-color: lightblue;
+}
+#s1:hover{
+    color: blue;
+    border-radius: 15px;
+    cursor: grab;
+}
