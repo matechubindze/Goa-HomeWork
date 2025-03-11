@@ -3,10 +3,33 @@ main{
     display: flex;
     flex-direction: column;
 }
-
-#div1, div3{
+#div1, #div3{
     height: 15%;
-    background: aqua;
+    background-color: aqua;
     color: white;
-    
+    padding-left: 30px;
+    font-weight: 100;
+}
+#div2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+#div2-child1{
+    width: 20%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 40px;
+}
+#div2-child2{
+    width: 80%;
+    background: gold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 40px;
 }
