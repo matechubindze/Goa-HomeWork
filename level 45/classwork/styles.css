@@ -1,0 +1,12 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#div1, div3{
+    height: 15%;
+    background: aqua;
+    color: white;
+    
+}
