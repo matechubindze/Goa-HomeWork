@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item-grow {
+    flex-grow: 2;
+  }
+  
+  .flex-item-bottom {
+    align-self: flex-end;
+  }
+  
+  .flex-container-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .flex-container-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item-equal {
+    flex: 1;
+  }
+  
+  .flex-container-column {
+    flex-direction: column;
+  }
+  

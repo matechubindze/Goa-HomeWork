@@ -9,3 +9,5 @@ print(manual_list(0, 30, 5, 15))
 #2
 numbers = [n for n in range(1, 101) if (n % 3 == 0 and n % 5 != 0) or (n % 5 == 0 and n % 3 != 0)]
 print(numbers)
+#3
+palindromic_numbers = [n for n in range(10, 201) if n // 10 == n % 10 * 10]
