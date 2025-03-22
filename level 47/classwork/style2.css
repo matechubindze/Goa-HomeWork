@@ -1,0 +1,7 @@
+#div{
+    height: 500px;
+    width: 1000px;
+    border: solid;
+    border-radius: 20px;
+    background-image: url("image.png");
+}
