@@ -1,0 +1,27 @@
+button:hover{
+    background-color: red;
+    border-radius: 100px;
+}
+a:hover{
+    background-color: purple;
+    border-radius: 100px;
+    color: black;
+}
+img:hover{
+    scale: 5;
+}
+p:hover{
+    color: aqua;
+}
+#button2:hover{
+    scale: 80%;
+    background-color: darkgray;
+}
+.div2{
+    border: solid red;
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}

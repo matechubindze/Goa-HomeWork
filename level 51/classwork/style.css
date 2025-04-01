@@ -1,0 +1,20 @@
+@keyframes bg-and-dg-changes{
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: green;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    animation-name: bg-and-dg-changes;
+    animation-duration: 10s;
+}

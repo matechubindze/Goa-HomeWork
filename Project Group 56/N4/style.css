@@ -1,0 +1,51 @@
+body{
+    background: url(image100.png);
+    background-size: cover;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    color: black;
+}
+h2:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#img1{
+    position: absolute;
+    bottom: 40%;
+    left: 10px;
+    border: solid;
+    border-radius: 100px;
+    height: 250px;
+}
+#img2{
+    position: absolute;
+    bottom: 40%;
+    right: 20px;
+    border: solid;
+    border-radius: 100px;
+    height: 265px;
+    width: 500px;
+}
+#img3{
+    height: 250px;
+    position: absolute;
+    top: 70%;
+    left: 10px;
+    border: solid;
+    border-radius: 100px;
+}
+#img4{
+    height: 250px;
+    position: absolute;
+    top: 70%;
+    right: 20px;
+    width: 500px;
+    border: solid;
+    border-radius: 100px;
+}
