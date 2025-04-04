@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <!--css-->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <!-- Container for the whole form -->
+    <div class="container">
+        <h1>Hotel Booking</h1>
+
+        <!-- The booking form starts here -->
+        <form>
+            <!-- Name Input -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <!-- Check-in Date Input -->
+            <label for="checkInDate">Check-in Date:</label>
+            <input type="date" id="checkInDate" required>
+
+            <!-- Check-out Date Input -->
+            <label for="checkOutDate">Check-out Date:</label>
+            <input type="date" id="checkOutDate" required>
+
+            <!-- Submit Button -->
+            <button type="submit">Next</button>
+        </form>
+
+        <!-- Confirmation message-->
+        <div id="confirmation" class="hidden">
+            <h2>Your Stay Information</h2>
+            <p>Check-in: <span id="checkInDetails"></span></p>
+            <p>Check-out: <span id="checkOutDetails"></span></p>
+            <p>Number of Nights: <span id="nightsDetails"></span></p>
+            <button>Book the Hotel</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

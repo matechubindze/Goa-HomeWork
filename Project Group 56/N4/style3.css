@@ -1,0 +1,76 @@
+/* body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* container for the form */
+.container {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px grey;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* heading style */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* style for the form labels and inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* style for input fields */
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: black; 
+}
+
+/* style for the submit button */
+button {
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* styiling button */
+button:hover {
+    background-color: gray;
+}
+
+/* hide details */
+.hidden {
+    display: none;
+}
+
+/* styling for the confirmation div */
+#confirmation {
+    margin-top: 20px;
+}
+
+/* style for the confirmation text */
+#confirmation p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}

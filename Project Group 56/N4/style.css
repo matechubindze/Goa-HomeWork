@@ -1,20 +1,25 @@
+/*body styling*/
 body{
     background: url(image100.png);
     background-size: cover;
 }
+/*first div block styling*/
 .div1{
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
     color: black;
 }
+/*change color when hovered*/
 h2:hover{
     background-color: red;
 }
+/*styl a tag*/
 a{
     text-decoration: none;
     color: black;
 }
+/*first img*/
 #img1{
     position: absolute;
     bottom: 40%;
@@ -23,6 +28,7 @@ a{
     border-radius: 100px;
     height: 250px;
 }
+/*second img*/
 #img2{
     position: absolute;
     bottom: 40%;
@@ -32,6 +38,7 @@ a{
     height: 265px;
     width: 500px;
 }
+/*third img*/
 #img3{
     height: 250px;
     position: absolute;
@@ -40,6 +47,7 @@ a{
     border: solid;
     border-radius: 100px;
 }
+/*fourth img*/
 #img4{
     height: 250px;
     position: absolute;

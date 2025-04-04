@@ -1,0 +1,91 @@
+/*Styiling h2*/
+h2{
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 40%;
+    height: 5%;
+    font-size: 400%;
+    position: absolute;
+    bottom: 85%;
+}
+/*Website Background Color*/
+body{
+    background-color: darkblue;
+    background-size: cover;
+}
+/*first img*/
+#img1{
+    border: solid;
+    border-radius: 100px;
+    width: 40%;
+    position: absolute;
+    bottom: 40%;
+}
+/*italic text*/
+#i1{
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    left: 43%;
+    top: 28%;
+}
+/*text styling*/
+h3{
+    position: absolute;
+    bottom: 20%;
+    right: 23%;
+    font-size: 300%;
+    color: white;
+}
+/*second img*/
+#img2{
+    border: solid;
+    border-radius: 100px;
+    width: 40%;
+    position: absolute;
+    top: 80%;
+}
+/*second italic text*/
+#i2{
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+}
+/*third img*/
+#img3{
+    border: solid;
+    border-radius: 100px;
+    width: 40%;
+    position: absolute;
+    top: 140%;
+}
+/*styling second h3*/
+#h3-2{
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 40%;
+}
+/*third italic text*/
+#i3{
+    font-size: 200%;
+    color: white;
+    position: absolute;
+    top: 150%;
+    left: 43%;
+    
+}
+/*back to home page*/
+#a1{
+    text-decoration: none;
+    font-size: 200%;
+    color: goldenrod;
+}
+#a1:hover{
+    background-color: black;
+}
