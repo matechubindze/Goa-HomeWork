@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: bounce 4s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0, 0) scale(0.5);
+    }
+    25% {
+        transform: translate(100px, -50px) scale(0.8);
+    }
+    50% {
+        transform: translate(200px, 50px) scale(1.2);
+    }
+    75% {
+        transform: translate(300px, -30px) scale(1.5);
+    }
+    100% {
