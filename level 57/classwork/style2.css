@@ -1,0 +1,20 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .child {
+    flex: 1;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  @media (min-width: 800px) {
+    .parent {
+      flex-direction: column;
+    }
+  }
+  
