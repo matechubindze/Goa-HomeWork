@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .grid > div {
+    background: #3478db;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  .c1 { grid-column: span 1; }
+  .c2 { grid-column: span 2; }
+  .c3 { grid-column: span 3; }
+  .c4 { grid-column: span 4; }
+  .c6 { grid-column: span 6; }
+  .c12 { grid-column: span 12; }
+  
