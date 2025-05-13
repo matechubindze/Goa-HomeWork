@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Manipulation Example</title>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">Header</div>
+  <div id="description">This is the description.</div>
+  <div id="footer">Footer</div>
+  <div id="title">My Page Title</div>
+  <div id="greeting">Hello!</div>
+  <div id="note">Note content here</div>
+  <h1 id="heading">Main Heading</h1>
+  <div id="box">Box</div>
+  <p id="paragraph">This is a paragraph.</p>
+
+  <script>
+    let header = document.getElementById('header');
+
+    let description = document.getElementById('description');
+
+    let footerElement = document.getElementById('footer');
+
+    let titleText = document.getElementById('title').textContent;
+
+    document.getElementById('greeting').textContent = "Welcome!";
+
+    document.getElementById('note').textContent = "";
+
+    document.getElementById('heading').style.color = "red";
+
+    document.getElementById('box').style.backgroundColor = "yellow";
+
+    document.getElementById('paragraph').style.fontSize = "20px";
+  </script>
+</body>
+</html>
