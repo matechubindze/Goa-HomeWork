@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Tasks</title>
+</head>
+<body>
+
+  <p id="messageOutput"></p>
+  <h1 id="fullNameOutput"></h1>
+
+  <script>
+    let hobby = prompt("What is your favorite hobby?");
+    alert(hobby);
+
+    let first = prompt("Enter your first name:");
+    let last = prompt("Enter your last name:");
+    alert(first + " " + last);
+
+    let message = prompt("Enter a message:");
+    document.getElementById("messageOutput").textContent = message;
+
+    let emoji = prompt("What is your favorite emoji?");
+    alert(emoji + " - Thank you!");
+
+    let word = prompt("Enter a word for the page title:");
+    document.title = word;
+
+    let inputText = prompt("Enter some text to alert:");
+    alert(inputText);
+
+    let color = prompt("Enter a background color (name or hex):");
+    document.body.style.backgroundColor = color;
+
+    let fname = prompt("Enter your first name:");
+    let lname = prompt("Enter your last name:");
+    document.getElementById("fullNameOutput").textContent = fname + " " + lname;
+  </script>
+
+</body>
+</html>
