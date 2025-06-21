@@ -7,4 +7,11 @@ let div = document.getElementById("div-main")
 div.appendChild(h1)
 let img = document.createElement("img")
 let button = document.createElement("button")
-button.textContent = 'Click Me'
+button.textContent = "Click Me"
+body.appendChild(button)
+let p2 = document.createElement("p")
+p.replaceChild (p,p2)
+let button2 = document.createElement("button")
+button.replaceChild(button,button2)
+let h2 = document.createElement("h2")
+h1.replaceChild(h1.h2)
