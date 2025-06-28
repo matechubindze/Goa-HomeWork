@@ -1,0 +1,53 @@
+/* ფონის სტილი */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+/* ლოგინის ფორმა */
+#loginBox {
+  background-color: black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+/* სათაური */
+#loginTitle {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* შეყვანის ველები */
+#username,
+#password {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ღილაკი */
+#loginBtn {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#loginBtn:hover {
+  background-color: #ddd;
+}
