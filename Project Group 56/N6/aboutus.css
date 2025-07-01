@@ -1,0 +1,59 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8; /* Off-white background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Black and white specific styles */
+.bg-black-custom {
+    background-color: #1a1a1a; /* Darker black for sections */
+}
+.text-white-custom {
+    color: #f8f8f8; /* Off-white text for dark backgrounds */
+}
+.border-gray-custom {
+    border-color: #ccc; /* Light gray border */
+}
+.text-gray-light {
+    color: #888; /* Lighter gray for subtle text */
+}
+
+/* Animation styles */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+.fade-in.animate {
+    opacity: 1;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

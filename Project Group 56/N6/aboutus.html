@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - National Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4 fixed w-full z-50">
+        <nav class="container mx-auto flex justify-between items-center px-4 md:px-8">
+            <a href="#" class="text-2xl font-bold text-gray-800">National Bank</a>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#hero" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Home</a></li>
+                <li><a href="#mission" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Mission</a></li>
+                <li><a href="#values" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Values</a></li>
+                <li><a href="#team" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Team</a></li>
+                <li><a href="#history" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">History</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="hidden md:hidden fixed inset-0 bg-black bg-opacity-90 z-40 flex flex-col items-center justify-center space-y-6 text-white-custom">
+            <button id="close-mobile-menu" class="absolute top-4 right-4 text-white-custom text-3xl">&times;</button>
+            <a href="#hero" class="text-2xl hover:text-gray-400 transition-colors duration-300">Home</a>
+            <a href="#mission" class="text-2xl hover:text-gray-400 transition-colors duration-300">Mission</a>
+            <a href="#values" class="text-2xl hover:text-gray-400 transition-colors duration-300">Values</a>
+            <a href="#team" class="text-2xl hover:text-gray-400 transition-colors duration-300">Team</a>
+            <a href="#history" class="text-2xl hover:text-gray-400 transition-colors duration-300">History</a>
+        </div>
+    </header>
+
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <section id="hero" class="relative bg-black-custom text-white-custom py-20 md:py-32 flex items-center justify-center min-h-screen">
+            <div class="container mx-auto px-4 md:px-8 text-center fade-in">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Shaping Tomorrow's Financial Landscape
+                </h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-light">
+                    At National Bank, we are more than just a financial institution; we are a partner in your journey, committed to fostering growth, trust, and innovation.
+                </p>
+                <a href="#mission" class="inline-block bg-white text-black-custom px-8 py-3 rounded-full font-semibold text-lg hover:bg-gray-200 transition-all duration-300 shadow-lg">
+                    Discover Our Story
+                </a>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section id="mission" class="py-20 md:py-24 bg-white fade-in-up">
+            <div class="container mx-auto px-4 md:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-800">Our Mission</h2>
+                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed">
+                        To empower individuals and businesses with innovative financial solutions, exceptional service, and unwavering integrity, ensuring prosperity for our clients and communities. We strive to be the most trusted financial partner, building lasting relationships through transparency and dedication.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section id="values" class="py-20 md:py-24 bg-gray-100 fade-in-up">
+            <div class="container mx-auto px-4 md:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Our Core Values</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 fade-in-up">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Integrity</h3>
+                        <p class="text-gray-600">
+                            We uphold the highest ethical standards, fostering trust and transparency in all our interactions. Our commitment to honesty is the bedrock of our relationships.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.1s;">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Innovation</h3>
+                        <p class="text-gray-600">
+                            We embrace change and continuously seek new ways to deliver superior financial services and solutions that meet the evolving needs of our clients.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.2s;">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Client-Centricity</h3>
+                        <p class="text-gray-600">
+                            Our clients are at the heart of everything we do. We are dedicated to understanding their needs and exceeding their expectations with personalized service.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.3s;">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Community</h3>
+                        <p class="text-gray-600">
+                            We are committed to contributing positively to the communities we serve, supporting local initiatives and promoting financial literacy.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.4s;">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Excellence</h3>
+                        <p class="text-gray-600">
+                            We strive for excellence in every aspect of our operations, from our financial products to our customer service, setting new benchmarks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section (Example) -->
+        <section id="team" class="py-20 md:py-24 bg-white fade-in-up">
+            <div class="container mx-auto px-4 md:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Meet Our Leadership</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center border border-gray-200 fade-in-up">
+                        <img src="https://placehold.co/150x150/e0e0e0/333333?text=Andria" alt="Andria Gobejishvili" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-gray-300">
+                        <h3 class="text-xl font-semibold text-gray-800">Andria Gobejishvili</h3>
+                        <p class="text-gray-600">Chief Executive Officer</p>
+                        <p class="text-sm text-gray-500 mt-2">Leading with vision and a commitment to client success.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.1s;">
+                        <img src="https://placehold.co/150x150/e0e0e0/333333?text=Mate" alt="Mate Chubinidze" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-gray-300">
+                        <h3 class="text-xl font-semibold text-gray-800">Mate Chubinidze</h3>
+                        <p class="text-gray-600">Chief Financial Officer</p>
+                        <p class="text-sm text-gray-500 mt-2">Ensuring financial stability and strategic growth.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.2s;">
+                        <img src="https://placehold.co/150x150/e0e0e0/333333?text=Nika" alt="Nika Samkharadze" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-gray-300">
+                        <h3 class="text-xl font-semibold text-gray-800">Nika Samkharadze</h3>
+                        <p class="text-gray-600">Chief Technology Officer</p>
+                        <p class="text-sm text-gray-500 mt-2">Driving technological innovation at the forefront of digital banking.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center border border-gray-200 fade-in-up" style="transition-delay: 0.3s;">
+                        <img src="https://placehold.co/150x150/e0e0e0/333333?text=Aleksandre" alt="Aleksandre Tsotskolauri" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-gray-300">
+                        <h3 class="text-xl font-semibold text-gray-800">Aleksandre Tsotskolauri</h3>
+                        <p class="text-gray-600">Head of Operations</p>
+                        <p class="text-sm text-gray-500 mt-2">Overseeing efficient and seamless bank operations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History/Milestones Section -->
+        <section id="history" class="py-20 md:py-24 bg-black-custom text-white-custom fade-in-up">
+            <div class="container mx-auto px-4 md:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Journey</h2>
+                <div class="relative max-w-4xl mx-auto">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gray-700 h-full hidden md:block"></div>
+
+                    <div class="space-y-12">
+                        <!-- Milestone 1 -->
+                        <div class="flex flex-col md:flex-row items-center justify-between md:space-x-8 fade-in-up">
+                            <div class="md:w-1/2 text-center md:text-right p-4">
+                                <h3 class="text-2xl font-semibold mb-2">1995: Foundation</h3>
+                                <p class="text-gray-light">National Bank was founded with a vision to revolutionize local banking services.</p>
+                            </div>
+                            <div class="hidden md:block w-4 h-4 bg-white rounded-full border-2 border-gray-500 flex-shrink-0"></div>
+                            <div class="md:w-1/2 p-4"></div>
+                        </div>
+
+                        <!-- Milestone 2 -->
+                        <div class="flex flex-col md:flex-row items-center justify-between md:space-x-8 fade-in-up" style="transition-delay: 0.1s;">
+                            <div class="md:w-1/2 p-4"></div>
+                            <div class="hidden md:block w-4 h-4 bg-white rounded-full border-2 border-gray-500 flex-shrink-0"></div>
+                            <div class="md:w-1/2 text-center md:text-left p-4">
+                                <h3 class="text-2xl font-semibold mb-2">2005: Digital Expansion</h3>
+                                <p class="text-gray-light">Launched our first online banking platform, making financial services more accessible.</p>
+                            </div>
+                        </div>
+
+                        <!-- Milestone 3 -->
+                        <div class="flex flex-col md:flex-row items-center justify-between md:space-x-8 fade-in-up" style="transition-delay: 0.2s;">
+                            <div class="md:w-1/2 text-center md:text-right p-4">
+                                <h3 class="text-2xl font-semibold mb-2">2015: Community Initiatives</h3>
+                                <p class="text-gray-light">Initiated several community development programs, focusing on financial literacy.</p>
+                            </div>
+                            <div class="hidden md:block w-4 h-4 bg-white rounded-full border-2 border-gray-500 flex-shrink-0"></div>
+                            <div class="md:w-1/2 p-4"></div>
+                        </div>
+
+                        <!-- Milestone 4 -->
+                        <div class="flex flex-col md:flex-row items-center justify-between md:space-x-8 fade-in-up" style="transition-delay: 0.3s;">
+                            <div class="md:w-1/2 p-4"></div>
+                            <div class="hidden md:block w-4 h-4 bg-white rounded-full border-2 border-gray-500 flex-shrink-0"></div>
+                            <div class="md:w-1/2 text-center md:text-left p-4">
+                                <h3 class="text-2xl font-semibold mb-2">2023: Global Recognition</h3>
+                                <p class="text-gray-light">Awarded 'Bank of the Year' for our innovative approach and customer satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white-custom py-10">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+            <p>&copy; 2025 National Bank. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="text-gray-400 hover:text-white-custom transition-colors duration-300">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white-custom transition-colors duration-300">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white-custom transition-colors duration-300">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="aboutus.js"></script>
+</body>
+</html>

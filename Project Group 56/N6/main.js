@@ -1,1 +1,0 @@
-// alert('WARNING!!: This Is Not A Real Bank ')
