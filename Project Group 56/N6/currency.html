@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვალუტის კურსი</title>
+    <link rel="stylesheet" href="currency.css">
+</head>
+    <body>
+        <div class="container">
+        <h1>💰 ბანკის ვალუტის კურსი</h1>
+    
+        <p class="description">
+        ქვემოთ მოცემულია საქართველოს ბანკის მიმდინარე ვალუტის კურსები. კურსი აჩვენებს, თუ რა ფასად ყიდულობს ან ყიდის ბანკი უცხოურ ვალუტას. ეს ინფორმაცია განსაკუთრებით მნიშვნელოვანია გადარიცხვებისთვის, ფულადი ოპერაციებისთვის ან მოგზაურობის დაგეგმვისას.
+        </p>
+
+        <p class="date" id="update-date"></p>
+
+        <table id="rates-table">
+        <thead>
+            <tr>
+            <th>ვალუტა</th>
+            <th>ყიდვა</th>
+            <th>გაყიდვა</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        </div>
+        <div class="converter">
+        <h2>🔄 ვალუტის კონვერტაცია</h2>
+        <p>
+            შეიყვანე თანხა და აირჩიე ვალუტა, რომ გადახურდავდეს ლარში.
+        </p>
+        <input type="number" id="amount" placeholder="შეიყვანე თანხა">
+        <select id="currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <button onclick="convert()">კონვერტირება</button>
+
+        <p id="result"></p>
+        </div>
+        <script src="currency.js"></script>
+    </body>
+</html>

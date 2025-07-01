@@ -1,26 +1,27 @@
+/* ძირითადი ფონტი */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f8f8f8; /* Off-white background */
-    color: #333; /* Dark gray text */
+    background-color: #f8f8f8; /* ღია თეთრი ფონი */
+    color: #333; /* მუქი ნაცრისფერი ტექსტი */
     line-height: 1.6;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden; /* ჰორიზონტალური სქროლის გამორთვა */
 }
 
-/* Black and white specific styles */
+/* მორგებული შავი და თეთრი სტილები */
 .bg-black-custom {
-    background-color: #1a1a1a; /* Darker black for sections */
+    background-color: #1a1a1a; /* მუქი შავი ფონი */
 }
 .text-white-custom {
-    color: #f8f8f8; /* Off-white text for dark backgrounds */
+    color: #f8f8f8; /* ღია თეთრი ტექსტი შავ ფონზე */
 }
 .border-gray-custom {
-    border-color: #ccc; /* Light gray border */
+    border-color: #ccc; /* ღია ნაცრისფერი ზღვარი */
 }
 .text-gray-light {
-    color: #888; /* Lighter gray for subtle text */
+    color: #888; /* მსუბუქი ნაცრისფერი ტექსტი */
 }
 
-/* Animation styles */
+/* ანიმაციის სტილები */
 .fade-in-up {
     opacity: 0;
     transform: translateY(20px);
@@ -38,12 +39,12 @@ body {
     opacity: 1;
 }
 
-/* Smooth scroll behavior */
+/* რბილი გადახვევის ქცევა */
 html {
     scroll-behavior: smooth;
 }
 
-/* Custom scrollbar for aesthetics */
+/* მორგებული სქროლბარის სტილები */
 ::-webkit-scrollbar {
     width: 8px;
 }

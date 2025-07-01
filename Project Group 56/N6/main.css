@@ -1,20 +1,85 @@
-body{
+/* ძირითადი სტილები */
+body {
   margin: 0;
-  padding: 0;
-}
-.main-div2{
-  display: flex;
-  background-color: black;
-  justify-content: center;
-}
-.img1{
-  height: 80px;
-  margin: 10px;
-  border: solid 1px;
-  border-radius: 30px;
-}
-.child-div1{
-  color: white;
-  margin: 10px;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  color: #111;
 }
 
+/* ნავიგაცია */
+#nav {
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+#logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+#nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ბანერი */
+#banner {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#banner p {
+  font-size: 18px;
+}
+
+/* სექციები */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+/* ფუტერი */
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  margin-top: 30px;
+}
