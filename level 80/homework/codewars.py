@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #1
 def stray(arr):
     if arr[0] == arr[1]:
@@ -42,4 +42,3 @@ def break_chocolate(n, m):
 #5
 def is_anagram(test, original):
     return sorted(test.lower()) == sorted(original.lower())
->>>>>>> eff97b16ff0424ac92b01081d958a1c512b95131
