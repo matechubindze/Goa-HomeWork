@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5ff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c1338;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 60px auto 40px auto;
+  padding: 0 20px;
+}
+
+#left {
+  width: 55%;
+}
+
+#right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#headline {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#subtext {
+  font-size: 1rem;
+  color: #666;
+  max-width: 500px;
+}
+
+#review1, #review2, #review3 {
+  background-color: #f2eafa;
+  color: #4c0070;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+#card1, #card2, #card3 {
+  background-color: #6c2dc7;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+#info1, #info2, #info3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+#info1 img, #info2 img, #info3 img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#name1, #name2, #name3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+#tag1, #tag2, #tag3 {
+  font-size: 0.9rem;
+  color: #d3b4ff;
+}
+
+#text1, #text2, #text3 {
+  font-style: italic;
+  margin: 0;
+}
+    

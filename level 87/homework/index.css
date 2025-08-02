@@ -1,0 +1,147 @@
+body {
+    background-color: hsl(0, 0%, 81%);
+    margin: 0;
+    padding: 0;
+}
+
+.Main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.DJ, .JP {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.LeftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Daniel {
+    background-color: hsl(263, 55%, 52%);
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upperPart {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px hsla(0, 0%, 81%, 0.6) solid;
+}
+
+h2 {
+    color: white;
+    margin: 15px 0;
+}
+
+.DanielMain p {
+    color: hsl(0, 0%, 81%);
+}
+
+.Jonathan {
+    background-color: hsl(217, 19%, 35%);
+    height: 350px;
+    width: 250px;
+    padding: 20px;
+    color: white;
+}
+
+.JonathanMain p {
+    color: hsl(0, 0%, 81%);
+}
+
+.Jeanette {
+    background-color: white;
+    height: 350px;
+    width: 320px;
+    padding: 20px;
+    color: black;
+}
+
+.JeanetteMain h2 {
+    color: black;
+}
+
+.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    height: 350px;
+    width: 530px;
+    padding: 20px;
+    color: white;
+}
+
+.PatrickMain h2,
+.PatrickMain p {
+    color: hsl(0, 0%, 81%);
+}
+
+.Kira {
+    background-color: white;
+    height: 730px;
+    width: 300px;
+    padding: 20px;
+    color: black;
+}
+
+.KiraMain h2 {
+    color: black;
+}
+
+/* 🔻 Responsive part below */
+@media (max-width: 1200px) {
+    .Daniel {
+        width: 100%;
+    }
+
+    .Patrick {
+        width: 100%;
+    }
+
+    .Main {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Daniel,
+    .Patrick,
+    .Jeanette,
+    .Jonathan,
+    .Kira {
+        width: 100%;
+        height: auto;
+    }
+
+    .DJ, .JP {
+        flex-direction: column;
+        align-items: center;
+    }
+}
