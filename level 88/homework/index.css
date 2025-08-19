@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 body {
@@ -155,3 +156,162 @@ img {
         justify-content: center;
     }
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.TopLeft {
+    flex: 1 1 300px;
+    max-width: 400px;
+}
+
+.LoveProducts {
+    color: hsl(300, 43%, 22%);
+    font-size: 32px;
+}
+
+.ExtraInfo {
+    width: 100%;
+    margin-top: 10px;
+    color: hsl(300, 20%, 30%);
+}
+
+.TopRight {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Review {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: hsl(300, 43%, 22%);
+    width: 100%;
+    max-width: 320px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+.Review:nth-child(2) {
+    margin-left: 20px;
+}
+
+.Review:nth-child(3) {
+    margin-left: 40px;
+}
+
+.Bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.Colton, .Irene, .Anne {
+    background-color: hsl(300, 43%, 22%);
+    height: auto;
+    width: 320px;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Irene {
+    margin-top: 20px;
+}
+
+.Anne {
+    margin-top: 40px;
+}
+
+.CardTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.CardTop img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.CardTop b {
+    color: hsl(333, 80%, 67%);
+}
+
+.Colton p, .Irene p, .Anne p {
+    color: white;
+    width: 100%;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+    .Top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TopLeft, .TopRight {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Review:nth-child(2),
+    .Review:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .LoveProducts {
+        font-size: 24px;
+    }
+
+    .ExtraInfo {
+        font-size: 14px;
+    }
+
+    .Review {
+        justify-content: center;
+    }
+}
+>>>>>>> a2d46feb1a278dba11ba5b21ddf143bda4b6d945
