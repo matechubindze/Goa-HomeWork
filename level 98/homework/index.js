@@ -1,0 +1,8 @@
+let b=document.querySelectorAll("button")
+b[0].onclick=()=>alert("pwd")
+b[1].onclick=()=>alert("ls")
+b[2].onclick=()=>alert("mkdir test")
+b[3].onclick=()=>alert("cd test")
+b[4].onclick=()=>alert("touch file.txt")
+b[5].onclick=()=>alert("rm file.txt")
+b[6].onclick=()=>alert("rmdir test")

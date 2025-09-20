@@ -1,0 +1,36 @@
+let b=document.querySelectorAll("button")
+b[0].onclick=()=>alert("The quick brown fox jumps over the lazy dog".includes("dog"))
+b[1].onclick=()=>{let s=prompt();alert(s.includes("@"))}
+b[2].onclick=()=>alert("JavaScript".includes("Java"))
+b[3].onclick=()=>alert("pineapple".includes("apple"))
+b[4].onclick=()=>{let s=prompt();alert(s.includes("not"))}
+b[5].onclick=()=>alert("The quick brown fox jumps over the lazy dog".indexOf("fox"))
+b[6].onclick=()=>alert("Hello world".indexOf("o"))
+b[7].onclick=()=>alert("Happy New Year 2025!".indexOf("2025"))
+b[8].onclick=()=>alert("This is a simple test".indexOf("is"))
+b[9].onclick=()=>{let s=prompt();alert(s.indexOf("@"))}
+b[10].onclick=()=>alert("Hello world".lastIndexOf("o"))
+b[11].onclick=()=>alert("banana".lastIndexOf("a"))
+b[12].onclick=()=>alert("This is a test, and it is simple".lastIndexOf("is"))
+b[13].onclick=()=>alert("dog dog dog".lastIndexOf("dog"))
+b[14].onclick=()=>alert("Happy 2025, welcome 2025!".lastIndexOf("2025"))
+b[15].onclick=()=>alert("ha".repeat(3))
+b[16].onclick=()=>alert("*".repeat(10))
+b[17].onclick=()=>alert("---".repeat(5))
+b[18].onclick=()=>{let w=prompt(),n=+prompt();alert(w.repeat(n))}
+b[19].onclick=()=>alert("Hello ".repeat(4))
+b[20].onclick=()=>alert("The cat chased the cat".replace("cat","dog"))
+b[21].onclick=()=>alert("JavaScript is cool".replace("Java","Type"))
+b[22].onclick=()=>{let s=prompt();alert(s.replace(" ","-"))}
+b[23].onclick=()=>alert("banana".replace("a","@"))
+b[24].onclick=()=>alert("Happy New Year 2024!".replace("2024","2025"))
+b[25].onclick=()=>alert("The cat chased another cat and found a cat".replaceAll("cat","dog"))
+b[26].onclick=()=>alert("I love JavaScript so much".replaceAll(" ","-"))
+b[27].onclick=()=>alert("banana".replaceAll("a","@"))
+b[28].onclick=()=>alert("2024 was great, but 2024 is over".replaceAll("2024","2025"))
+b[29].onclick=()=>alert("Wait. Stop. Go. Run.".replaceAll(".","!"))
+b[30].onclick=()=>alert("Hello world".slice(6))
+b[31].onclick=()=>alert("JavaScript".slice(0,4))
+b[32].onclick=()=>alert("Good Morning".slice(5,12))
+b[33].onclick=()=>alert("apple,banana,cherry".slice(6,12))
+b[34].onclick=()=>{let s=prompt(),a=+prompt(),c=+prompt();alert(s.slice(a,c))}
