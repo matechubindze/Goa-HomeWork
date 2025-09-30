@@ -1,0 +1,27 @@
+/* Page-ის გასტილვა */
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* review box */
+.review {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* სახელი */
+.review h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Stars */
+.stars {
+  color: #f39c12;
+  margin-bottom: 8px;
+}
