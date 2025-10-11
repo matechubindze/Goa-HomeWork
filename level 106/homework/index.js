@@ -1,10 +1,19 @@
-const executorFunction(resolve, reject) => {
-    num = Math.random
-    if (num >= 0.5){
-        resolve("Heads!")
-    }else{
-        reject("Tails!")
-    }
+function coinFlip() {
+  return new Promise((resolve, reject) => {
+    const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
 
+    if (result === 'Heads') {
+      resolve('Heads');
+    } else {
+      reject('Tails');
+    }
+  });
 }
-console.log(executorFunction)
+
+coinFlip()
+  .then(result => {
+    console.log('Result:', result);
+  })
+  .catch(error => {
+    console.log('Result:', error);
+  });
